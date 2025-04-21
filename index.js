@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 
 const token = "7045668559:AAHcMvLqWW9fEuA6DsjgLH3W5Nguvbvb2Iw" // Bot tokenini bu yerga kiriting
 const adminId = "5671783552"; // Adminning Telegram ID sini kiriting
-const bot = new TelegramBot(token, {polling: true}); // Botni ishga tushirish
+const bot = new TelegramBot(token, {webHook: true}); // Botni ishga tushirish
 
 
 
